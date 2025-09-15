@@ -1,0 +1,1 @@
+//Calcule a área de um quadrado. Como calcular: Area = lado * lado

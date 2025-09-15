@@ -1,0 +1,1 @@
+//Calcule a área de um retângulo. Area = comprimento * altura
