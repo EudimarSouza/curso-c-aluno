@@ -2,7 +2,13 @@
 
 #include <stdio.h>
 
-int main() {
-    printf("Hello World!");
+int main(){
+    int numero, resultado = 0;
+
+    printf("Informe o número para calcular o quadrado: ");
+    scanf("%d", &numero);
+    resultado = numero * numero;
+    printf("O quadro é  %d\n", resultado);
+
     return 0;
 }
