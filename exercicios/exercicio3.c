@@ -3,7 +3,7 @@
 
 int main() {
     char nome[30]= "";
-    int nota1, nota2, nota3, nota4, total = 0;
+    float nota1, nota2, nota3, nota4, total = 0;
     float media = 0;
 
     printf("Qual é o nome do aluno? \n");
@@ -11,13 +11,13 @@ int main() {
     printf("Aluno: ");
     scanf("%s", nome);
     printf("Digite nota 1: ");
-    scanf("%d", &nota1);
+    scanf("%f", &nota1);
     printf("Digite nota 2: ");
-    scanf("%d", &nota2);
+    scanf("%f", &nota2);
     printf("Digite nota 3: ");
-    scanf("%d", &nota3);
+    scanf("%f", &nota3);
     printf("Digite nota 4: ");
-    scanf("%d", &nota4);
+    scanf("%f", &nota4);
     total = nota1 + nota2 + nota3 + nota4;
     media = total /4;
     
